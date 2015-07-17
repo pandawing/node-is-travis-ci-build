@@ -4,6 +4,8 @@
 
 > Check if your code is running on [Travis-CI build](http://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables)
 
+[is-travis-ci-build-for-tag](https://github.com/pandawing/node-is-travis-ci-build-for-tag) is related, _only for a tag_.
+
 This is based on [is-travis](https://github.com/sindresorhus/is-travis).
 
 
