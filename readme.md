@@ -2,7 +2,9 @@
 
 [![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
-> My spectacular module
+> Check if your code is running on [Travis-CI build](http://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables)
+
+This is based on [is-travis](https://github.com/sindresorhus/is-travis).
 
 
 ## Install
@@ -17,8 +19,13 @@ $ npm install --save is-travis-ci-build
 ```js
 var isTravisCiBuild = require('is-travis-ci-build');
 
-isTravisCiBuild('unicorns');
-//=> unicorns & rainbows
+// on your local computer
+console.log(isTravisCiBuild());
+//=> false
+
+// on Travis-CI build
+console.log(isTravisCiBuild());
+//=> true
 ```
 
 
@@ -47,31 +54,22 @@ $ is-travis-ci-build --help
 
 ## API
 
-### isTravisCiBuild(input, [options])
+### isTravisCiBuild()
 
-#### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
 
 ## Changelog
 
 [changelog.md](./changelog.md).
 
+
 ## License
 
 MIT © [sanemat](http://sane.jp)
+
+### [is-travis](https://github.com/sindresorhus/is-travis)
+
+MIT © [Sindre Sorhus](http://sindresorhus.com)
+
 
 [travis-url]: https://travis-ci.org/sanemat/is-travis-ci-build
 [travis-image]: https://img.shields.io/travis/sanemat/is-travis-ci-build/master.svg?style=flat-square&label=travis
