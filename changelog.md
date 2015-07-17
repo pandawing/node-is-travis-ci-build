@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2015-07-17)
+
+
+### Features
+
+* **env:** treat empty string and falsy stirng as false ([d081f45](https://github.com/pandawing/node-is-travis-ci-build/commit/d081f45))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2015-07-17)
 
