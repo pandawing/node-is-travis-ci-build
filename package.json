@@ -1,7 +1,7 @@
 {
   "name": "is-travis-ci-build",
   "description": "Check if your code is running on Travis-CI build.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "sanemat",
     "email": "o.gata.ken@gmail.com",
