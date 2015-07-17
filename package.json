@@ -30,12 +30,14 @@
     "cli.js"
   ],
   "keywords": [
-    "",
+    "travis",
+    "travis-ci",
+    "ci",
     "cli",
     "cli-app"
   ],
   "license": "MIT",
-  "repository": "sanemat/is-travis-ci-build",
+  "repository": "pandawing/node-is-travis-ci-build",
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
