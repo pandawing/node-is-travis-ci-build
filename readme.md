@@ -71,11 +71,11 @@ MIT © [sanemat](http://sane.jp)
 MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 
-[travis-url]: https://travis-ci.org/sanemat/is-travis-ci-build
-[travis-image]: https://img.shields.io/travis/sanemat/is-travis-ci-build/master.svg?style=flat-square&label=travis
-[appveyor-url]: https://ci.appveyor.com/project/sanemat/is-travis-ci-build/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/is-travis-ci-build/master.svg?style=flat-square&label=appveyor
+[travis-url]: https://travis-ci.org/pandawing/node-is-travis-ci-build
+[travis-image]: https://img.shields.io/travis/pandawing/node-is-travis-ci-build/master.svg?style=flat-square&label=travis
+[appveyor-url]: https://ci.appveyor.com/project/sanemat/node-is-travis-ci-build/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/node-is-travis-ci-build/master.svg?style=flat-square&label=appveyor
 [npm-url]: https://npmjs.org/package/is-travis-ci-build
 [npm-image]: https://img.shields.io/npm/v/is-travis-ci-build.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/sanemat/is-travis-ci-build
-[daviddm-image]: https://img.shields.io/david/sanemat/is-travis-ci-build.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/pandawing/node-is-travis-ci-build
+[daviddm-image]: https://img.shields.io/david/pandawing/node-is-travis-ci-build.svg?style=flat-square
