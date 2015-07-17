@@ -22,11 +22,11 @@ $ npm install --save is-travis-ci-build
 var isTravisCiBuild = require('is-travis-ci-build');
 
 // on your local computer
-console.log(isTravisCiBuild());
+isTravisCiBuild();
 //=> false
 
 // on Travis-CI build
-console.log(isTravisCiBuild());
+isTravisCiBuild();
 //=> true
 ```
 
