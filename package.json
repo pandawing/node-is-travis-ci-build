@@ -31,11 +31,11 @@
     "cli.js"
   ],
   "keywords": [
-    "travis",
-    "travis-ci",
     "ci",
     "cli",
-    "cli-app"
+    "cli-app",
+    "travis",
+    "travis-ci"
   ],
   "license": "MIT",
   "repository": "pandawing/node-is-travis-ci-build",
