@@ -9,6 +9,12 @@ it('should not travis-ci build', function () {
   assert.equal(isTravisCiBuild(), false);
 });
 
+it('does not set travis-ci build', function () {
+  process.env.TRAVIS = '';
+  process.env.CI = '';
+  assert.equal(isTravisCiBuild(), false);
+});
+
 it('should travis-ci build', function () {
   process.env.TRAVIS = 1;
   process.env.CI = 1;
