@@ -4,21 +4,23 @@
 var meow = require('meow');
 var isTravisCiBuild = require('./');
 
-var cli = meow({
+meow({
   help: [
     'Usage',
-    '  $ is-travis-ci-build [input]',
+    '  $ is-travis-ci-build',
     '',
     'Examples',
+    '  // on your local computer',
     '  $ is-travis-ci-build',
-    '  unicorns & rainbows',
+    '  This is not Travis-CI build. //=> exit code: 1',
     '',
-    '  $ is-travis-ci-build ponies',
-    '  ponies & rainbows',
-    '',
-    'Options',
-    '  --foo  Lorem ipsum. Default: false'
+    '  // on Travis-CI build',
+    '  $ is-travis-ci-build',
+    '  (no output) //=> exit code: 0'
   ]
 });
 
-console.log(isTravisCiBuild(cli.input[0] || 'unicorns'));
+if (!isTravisCiBuild()) {
+  console.error('This is not Travis-CI build.');
+  process.exit(1);
+}
