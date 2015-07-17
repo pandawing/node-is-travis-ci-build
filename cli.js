@@ -4,7 +4,7 @@
 var meow = require('meow');
 var isTravisCiBuild = require('./');
 
-var cli = meow({
+meow({
   help: [
     'Usage',
     '  $ is-travis-ci-build',
