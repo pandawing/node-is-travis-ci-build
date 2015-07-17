@@ -36,19 +36,19 @@ $ npm install --global is-travis-ci-build
 ```
 ```
 $ is-travis-ci-build --help
+  Check if your code is running on Travis-CI build.
 
   Usage
-    is-travis-ci-build [input]
+    $ is-travis-ci-build
 
-  Example
-    is-travis-ci-build
-    unicorns & rainbows
+  Examples
+    // on your local computer
+    $ is-travis-ci-build
+    This is not Travis-CI build. //=> exit code: 1
 
-    is-travis-ci-build ponies
-    ponies & rainbows
-
-  Options
-    --foo  Lorem ipsum. Default: false
+    // on Travis-CI build
+    $ is-travis-ci-build
+    (no output) //=> exit code: 0
 ```
 
 

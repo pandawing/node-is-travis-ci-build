@@ -1,6 +1,6 @@
 {
   "name": "is-travis-ci-build",
-  "description": "My spectacular module",
+  "description": "Check if your code is running on Travis-CI build.",
   "version": "0.0.0",
   "author": {
     "name": "sanemat",
