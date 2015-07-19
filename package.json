@@ -9,7 +9,7 @@
   },
   "bin": "cli.js",
   "dependencies": {
-    "boolify-string": "^1.0.1",
+    "boolify-string": "^2.0.0",
     "meow": "^3.3.0"
   },
   "devDependencies": {
